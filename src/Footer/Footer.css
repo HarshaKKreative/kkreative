@@ -1,0 +1,93 @@
+.footer {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+  margin-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.footer__links {
+  padding: 1.4rem 2.3rem;
+  box-shadow: 0 2px 12px #e7e7e7;
+  width: 100%;
+}
+
+.footer__links .footer__links-emails {
+  margin: 0.8rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer__links .footer__links-emails a {
+  opacity: 0.7;
+  transition: var(--transition);
+}
+
+.footer__links .footer__links-emails a:hover {
+  opacity: 1;
+}
+
+.footer__links h3 {
+  font-weight: 500;
+}
+
+.footer__links .footer__links-emails h4 {
+  font-weight: 400;
+}
+
+.footer__links .footer__links-terms {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: smaller;
+}
+
+.footer__links .footer__links-terms p {
+  opacity: 0.5;
+  transition: var(--transition);
+}
+
+.footer__links .footer__links-terms p:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.footer__addresses {
+  margin-top: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  box-shadow: 0 2px 12px #e7e7e7;
+  padding: 1.4rem 2.3rem;
+}
+
+.footer__addresses .address h4 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.footer__addresses .address p {
+  opacity: 0.7;
+  line-height: 1.7;
+}
+
+.footer__icons {
+  height: fit-content;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__icons svg {
+  transition: var(--transition);
+}
+
+.footer__icons svg:hover {
+  cursor: pointer;
+  transition: var(--transition);
+  transform: translateY(-10px);
+}
+

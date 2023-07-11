@@ -1,0 +1,28 @@
+.e-commerce {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+  margin-top: 7.5rem;
+}
+
+.e-commerce h1 {
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.e-commerce p {
+  margin-bottom: 1.2rem;
+}
+
+.e-commerce ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.e-commerce-content {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+.e-commerce-content h2 {
+  color: var(--color-primary);
+}

@@ -1,0 +1,45 @@
+.banking {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+
+.banking__image {
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.banking__content h1,
+.banking__content h2 {
+  color: var(--color-primary);
+  margin-bottom: 0.8rem;
+}
+
+.banking p {
+  margin-bottom: 1rem;
+}
+
+.banking__content-2 {
+  margin-top: 5rem;
+}
+
+.banking__content-2 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.banking__content-2 > div > div {
+    width: 80%;
+}
+
+.banking__kkreative h3 {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+

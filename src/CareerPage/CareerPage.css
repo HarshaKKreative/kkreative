@@ -1,0 +1,10 @@
+.career-page {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+  margin-top: 7rem;
+  color: var(--color-primary);
+  height: 42vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

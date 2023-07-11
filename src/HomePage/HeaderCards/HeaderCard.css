@@ -1,0 +1,11 @@
+.header-cards {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+

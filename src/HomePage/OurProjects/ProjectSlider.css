@@ -1,0 +1,30 @@
+.project-slider {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+
+.project-slider .slider-item {
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.project-slider .slider-item img {
+  width: fit-content;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.project-slider h2 {
+  margin-bottom: 1rem;
+}
+
+.slick-arrow.slick-next:before {
+  content: "";
+}
+
+.slick-arrow.slick-prev:before {
+  content: "";
+}

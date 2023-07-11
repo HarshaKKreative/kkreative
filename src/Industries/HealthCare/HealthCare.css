@@ -1,0 +1,33 @@
+.healthcare {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+.healthcare h1 {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.healthcare p {
+    margin-bottom: 1rem;
+}
+
+.healthcare p:last-child {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.healthcare p:nth-child(7) {
+    margin: 5rem 0;
+}
+
+.healthcare__image img{
+    display: block;
+    border-radius: 1.8rem;
+    max-width: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 1.2rem;
+}
+

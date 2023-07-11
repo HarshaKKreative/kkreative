@@ -1,0 +1,22 @@
+.cloud-management {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+  margin-top: 6.9rem;
+}
+
+.cloud-management h1 {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.cloud-management p {
+  margin-bottom: 1rem;
+}
+
+.cloud-management ol {
+  padding-left: 2rem;
+}
+
+.cloud-management h4 {
+  color: var(--color-primary);
+}

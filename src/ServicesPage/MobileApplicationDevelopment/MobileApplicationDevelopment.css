@@ -1,0 +1,21 @@
+.mobile-application-dev {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    margin-top: 7rem
+
+}
+
+.mobile-application-dev p {
+    margin-bottom: 1rem;
+}
+
+.mobile-application-dev h1,.mobile-application-dev h4 {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+
+.mobile-application-dev ul, .mobile-application-dev ol {
+    padding-left:2rem;
+    margin-bottom: 1rem;
+}

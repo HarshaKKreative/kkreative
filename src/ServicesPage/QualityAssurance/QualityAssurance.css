@@ -1,0 +1,27 @@
+.quality-assurance {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    margin-top: 6.9rem;
+}
+
+.quality-assurance p {
+    margin-bottom: 1rem;
+}
+
+.quality-assurance h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.quality-assurance h2 {
+    margin-bottom: 1rem;
+}
+
+.quality-assurance  ul {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.quality-assurance h1,.quality-assurance h2,.quality-assurance h3, .quality-assurance h4 {
+    color: var(--color-primary);
+}
