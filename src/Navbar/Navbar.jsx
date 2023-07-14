@@ -94,31 +94,8 @@ function Nav_bar({ currentPage }) {
           <a href="#contact">Contacts Us</a>
         </li>
       </ul>
-      {/* <div className="nav__search-bar">
-        <form onSubmit={handleSubmit}>
-          <label htmlFor="nav__search">
-            <ImSearch size={"20px"} />
-          </label>
-          <input
-            type="text"
-            name="search"
-            placeholder="Search.."
-            id="nav__search"
-            list="inputs"
-            minLength={4}
-            required
-          />
-          <datalist id="inputs">
-            <option value="careers"></option>
-            <option value="about-us"></option>
-            <option value="home"></option>
-            <option value="application-development"></option>
-            <option value="home"></option>
-          </datalist>
-        </form>
-      </div> */}
     </nav>
   );
 }
-
 export default Nav_bar;
+
