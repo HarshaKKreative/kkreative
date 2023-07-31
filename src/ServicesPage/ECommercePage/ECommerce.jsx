@@ -5,6 +5,40 @@ import "./ECommerce.css";
 function ECommerce() {
   return (
     <>
+      <section className="e-commerce-content">
+        <h2>ENTERPRISE CONTENT MANAGEMENT</h2>
+        <p>
+          Many enterprises face the challenge of trying to manage the rapid
+          growth of their unstructured data. This can include emails, images,
+          office documents, web content, instant messages and video. It is
+          estimated that as much as 80 per cent of enterprise information is
+          unstructured or information not stored in a relational database.
+        </p>
+        <p>
+          kkreative's Enterprise Content Management services enables clients to
+          develop a strategy that effectively captures, manages, delivers and
+          stores content wherever and whenever it is needed throughout the
+          enterprise.
+        </p>
+        <p>
+          We seek to develop a common understanding of the clients Enterprise
+          Content Management implementation, and from that articulate a clear
+          vision. We anticipate the amount of reorganization and change that is
+          necessary and evaluate the cost benefit of balancing the client's
+          migration and implementation strategy. Our services will enable your
+          company to eliminate old and irrelevant content saving clients both
+          time and money as they move forward.
+        </p>
+        <p>
+          Our approach makes use of a strategic architectural view of the
+          client's enterprise and makes use of their current investments in
+          technology and tools.
+          <b>
+            We build a framework for control and management that makes sense for
+            the client and will help to involve the ECM environment.
+          </b>
+        </p>
+      </section>
       <section className="e-commerce">
         <h1>Enterprise Technologies</h1>
         <p>
@@ -61,40 +95,7 @@ function ECommerce() {
           winning customers as well as staying ahead of the competition
         </p>
       </section>
-      <section className="e-commerce-content">
-        <h2>ENTERPRISE CONTENT MANAGEMENT</h2>
-        <p>
-          Many enterprises face the challenge of trying to manage the rapid
-          growth of their unstructured data. This can include emails, images,
-          office documents, web content, instant messages and video. It is
-          estimated that as much as 80 per cent of enterprise information is
-          unstructured or information not stored in a relational database.
-        </p>
-        <p>
-          kkreative's Enterprise Content Management services enables clients to
-          develop a strategy that effectively captures, manages, delivers and
-          stores content wherever and whenever it is needed throughout the
-          enterprise.
-        </p>
-        <p>
-          We seek to develop a common understanding of the clients Enterprise
-          Content Management implementation, and from that articulate a clear
-          vision. We anticipate the amount of reorganization and change that is
-          necessary and evaluate the cost benefit of balancing the client's
-          migration and implementation strategy. Our services will enable your
-          company to eliminate old and irrelevant content saving clients both
-          time and money as they move forward.
-        </p>
-        <p>
-          Our approach makes use of a strategic architectural view of the
-          client's enterprise and makes use of their current investments in
-          technology and tools.
-          <b>
-            We build a framework for control and management that makes sense for
-            the client and will help to involve the ECM environment.
-          </b>
-        </p>
-      </section>
+
       <Footer />
     </>
   );

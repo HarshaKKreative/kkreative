@@ -1,9 +1,7 @@
 import React from "react";
-import ServicesCard from "../ServiceCard/ServiceCard";
 import MONITOR from "../../assets/images/monitor.svg";
-import MONITOR2 from "../../assets/images/monitor2.svg";
-import NOTES from "../../assets/images/notes.svg";
 import PHONE from "../../assets/images/phone.svg";
+import ServicesCard from "../ServiceCard/ServiceCard";
 import "./services.css";
 
 function Services() {
@@ -12,12 +10,9 @@ function Services() {
       <div>
         <div className="services__set-1">
           <ServicesCard imgSrc={PHONE} title={"App Development"} />
-          <ServicesCard imgSrc={NOTES} title={"Branding"} />
-        </div>
-        <div className="services__set-2">
           <ServicesCard imgSrc={MONITOR} title={"Web Design"} />
-          <ServicesCard imgSrc={MONITOR2} title={"Graphic Design"} />
         </div>
+
         <div className="services__info">
           <h2>Empowering Your Online Presence with Expert Services</h2>
           <p>
@@ -28,7 +23,6 @@ function Services() {
             requirements, making sure that your brand stands out and achieves
             its full potential in the digital world.
           </p>
-          <button className="button">Read More</button>
         </div>
       </div>
     </section>
@@ -36,4 +30,3 @@ function Services() {
 }
 
 export default Services;
-    

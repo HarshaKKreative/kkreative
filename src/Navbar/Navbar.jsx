@@ -1,31 +1,30 @@
 import { BiSolidDownArrow } from "react-icons/bi";
-// import { ImSearch } from "react-icons/im";
 import { Link } from "react-router-dom";
 import LOGO from "../assets/images/logo.png";
 import "./Navbar.css";
 
 function Nav_bar({ currentPage }) {
-  // const navigate = useNavigate();
-
-  // const handleSubmit = (e) => {
-  //   let str = e.target.children[1].value.toLowerCase();
-  //   console.log(str);
-  //   if (str === "home") {
-  //     navigate("/");
-  //   } else {
-  //     navigate(`/${str}`);
-  //   }
-  //   e.preventDefault();
-  // };
 
   return (
     <nav className="nav">
       <div className="nav__logo">
-        <img src={LOGO} alt="log" />
+        {currentPage === "/" ? (
+          <a href="#header">
+            <img src={LOGO} alt="log" />
+          </a>
+        ) : (
+          <Link to="/">
+            <img src={LOGO} alt="log" />
+          </Link>
+        )}
       </div>
       <ul className="nav__items">
         <li>
-          <Link to={"/"}>Home</Link>
+          {currentPage === "/" ? (
+            <a href="#header">Home</a>
+          ) : (
+            <Link to="/">Home</Link>
+          )}
         </li>
         <li>
           <Link to={"/about-us"}> About us</Link>
@@ -34,13 +33,7 @@ function Nav_bar({ currentPage }) {
           Industries <BiSolidDownArrow size={"10px"} />
           <ul className="nav__submenu">
             <li>
-              <Link to={"automotive"}>Automotive</Link>
-            </li>
-            <li>
               <Link to={"banking"}>Banking-Finance</Link>
-            </li>
-            <li>
-              <Link to={"consumer-goods"}>Consumer Goods</Link>
             </li>
             <li>
               <Link to={"healthcare"}>Healthcare</Link>
@@ -63,11 +56,6 @@ function Nav_bar({ currentPage }) {
               <Link to={"/services-quality-assurance"}>Quality assurance</Link>
             </li>
             <li>
-              <Link to={"/services-cloud-management"}>
-                Cloud Management & Monitoring
-              </Link>
-            </li>
-            <li>
               <Link to={"/services-mobile-application-development"}>
                 Mobile application development
               </Link>
@@ -76,9 +64,9 @@ function Nav_bar({ currentPage }) {
         </li>
         <li>
           {currentPage === "/" ? (
-            <Link to={"/"}>Portfolio</Link>
-          ) : (
             <a href="#portfolio">Portfolio</a>
+          ) : (
+            <Link to={"/"}>Portfolio</Link>
           )}
         </li>
         <li className="nav__services">
@@ -98,4 +86,3 @@ function Nav_bar({ currentPage }) {
   );
 }
 export default Nav_bar;
-

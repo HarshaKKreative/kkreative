@@ -1,7 +1,6 @@
 .e-commerce {
   width: var(--container-width-lg);
   margin: 0 auto;
-  margin-top: 7.5rem;
 }
 
 .e-commerce h1 {
@@ -21,6 +20,8 @@
 .e-commerce-content {
   width: var(--container-width-lg);
   margin: 0 auto;
+  margin-top: 9rem;
+  margin-bottom: 2rem;
 }
 
 .e-commerce-content h2 {

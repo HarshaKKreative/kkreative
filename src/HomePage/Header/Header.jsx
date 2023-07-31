@@ -3,7 +3,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header" id="header">
       <div className="header__info">
         <div className="header__content">
           <h3>TURNING YOUR ONLINE</h3>

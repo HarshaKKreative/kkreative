@@ -1,7 +1,7 @@
 .banking {
   width: var(--container-width-lg);
   margin: 0 auto;
-  margin-top: 7rem;
+  margin-top: 9rem;
 }
 
 .banking__image {

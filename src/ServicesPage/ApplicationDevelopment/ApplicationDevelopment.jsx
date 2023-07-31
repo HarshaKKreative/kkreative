@@ -6,32 +6,27 @@ function ApplicationDevelopment() {
   return (
     <>
       <section className="application-development">
-        <div>
-          <h1>Creative Solutions For Your Web Design Needs</h1>
-          <button className="button">Get Started</button>
-        </div>
-        <div>
-          <p>
-            At <b>Kkreative</b>, Our team of experienced app developers is here
-            to guide you through every step of the process, from brainstorming
-            ideas to launching your app in the app store. We understand that
-            creating an app can be a daunting task, but with our expertise, we
-            can help make the process smoother and less stressful.
-          </p>
-          <p>
-            We specialize in developing apps for both iOS and Android platforms.
-            Our team is well-versed in the latest technology and trends,
-            ensuring that your app will be up-to-date and user-friendly. We also
-            offer custom app development, ensuring that your app is tailored to
-            your specific needs and requirements.
-          </p>
-          <p>
-            But our service doesn't stop there. We offer ongoing support and
-            maintenance to ensure that your app is running smoothly and
-            efficiently. We also offer marketing services to help promote your
-            app and increase visibility in the app store.
-          </p>
-        </div>
+        <h1>Creative Solutions For Your Web Design Needs</h1>
+        <p>
+          At <b>Kkreative</b>, Our team of experienced app developers is here to
+          guide you through every step of the process, from brainstorming ideas
+          to launching your app in the app store. We understand that creating an
+          app can be a daunting task, but with our expertise, we can help make
+          the process smoother and less stressful.
+        </p>
+        <p>
+          We specialize in developing apps for both iOS and Android platforms.
+          Our team is well-versed in the latest technology and trends, ensuring
+          that your app will be up-to-date and user-friendly. We also offer
+          custom app development, ensuring that your app is tailored to your
+          specific needs and requirements.
+        </p>
+        <p>
+          But our service doesn't stop there. We offer ongoing support and
+          maintenance to ensure that your app is running smoothly and
+          efficiently. We also offer marketing services to help promote your app
+          and increase visibility in the app store.
+        </p>
       </section>
       <section className="application-development-services">
         <h2>ENTERPRISE CONTENT MANAGEMENT</h2>

@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      {currentPage === "/" ? <Nav /> : <Nav currentPage={"/"} />}
+      {currentPage === "/" ? <Nav currentPage={"/"} /> : <Nav />}
       <AppRoutes />
     </div>
   );

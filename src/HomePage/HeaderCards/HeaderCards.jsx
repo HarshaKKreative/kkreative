@@ -25,7 +25,7 @@ function HeaderCards() {
         delay={500}
       />
       <Card
-        title={"Smart Planing"}
+        title={"Smart Planning"}
         imgSrc={BRAIN}
         description={
           "Whether you're looking to launch a new product, revamp your website, or create a marketing campaign, we're here to help."

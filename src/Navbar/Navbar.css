@@ -37,6 +37,10 @@
   margin: 0 1rem;
 }
 
+.nav__items > li a {
+  padding: 0.5rem;
+}
+
 .nav__items > li::after {
   content: "";
   display: block;

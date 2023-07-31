@@ -7,8 +7,8 @@ import Slider from "react-slick";
 import "./ProjectSlider.css";
 
 
-import project_1 from "../../assets/images/project_1.png";
-// import project_2 from "../assets/images/project_2.png";
+import project_10 from "../../assets/images/project_10.jpg";
+import project_11 from "../../assets/images/project_11.jpg";
 import project_3 from "../../assets/images/project_3.png";
 import project_4 from "../../assets/images/project_4.png";
 import project_5 from "../../assets/images/project_5.png";
@@ -16,16 +16,13 @@ import project_6 from "../../assets/images/project_6.png";
 import project_7 from "../../assets/images/project_7.png";
 import project_8 from "../../assets/images/project_8.png";
 import project_9 from "../../assets/images/project_9.png";
-import project_10 from "../../assets/images/project_10.jpg";
-import project_11 from "../../assets/images/project_11.jpg";
-
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div className={className} onClick={onClick}>
       <IoMdArrowDroprightCircle
-        style={{ ...style, color: "lightblue", fontSize: "20px" }}
+        style={{ ...style, color: "lightblue", fontSize: "30px" }}
       />
     </div>
   );
@@ -36,7 +33,7 @@ function SamplePrevArrow(props) {
   return (
     <div className={className} onClick={onClick}>
       <IoMdArrowDropleftCircle
-        style={{ ...style, color: "lightblue", fontSize: "20px" }}
+        style={{ ...style, color: "lightblue", fontSize: "30px" }}
       />
     </div>
   );
@@ -80,13 +77,11 @@ const settings = {
 };
 
 function ProjectSlider() {
+
   return (
     <div className="project-slider" id="portfolio">
       <h2>Some of our finest works</h2>
       <Slider {...settings}>
-        <div className="slider-item">
-          <img src={project_1} alt="project" />
-        </div>
         <div className="slider-item">
           <img src={project_3} alt="project" />
         </div>
@@ -106,13 +101,13 @@ function ProjectSlider() {
           <img src={project_8} alt="project" />
         </div>
         <div className="slider-item">
-          <img src={project_9} alt="project" />
+          <img src={project_9} alt="project" width={"230"}/>
         </div>
         <div className="slider-item">
-          <img src={project_10} alt="project" />
+          <img src={project_10} alt="project" width={"200"}/>
         </div>
         <div className="slider-item">
-          <img src={project_11} alt="project" />
+          <img src={project_11} alt="project" width={"250"}/>
         </div>
       </Slider>
     </div>

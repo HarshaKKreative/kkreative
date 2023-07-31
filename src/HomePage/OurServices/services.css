@@ -3,25 +3,19 @@
   padding: 100px 0;
 }
 
-
 .services > div {
   width: var(--container-width-lg);
   margin: 0 auto;
   display: flex;
+  gap: 2rem;
 }
 
 
 .services__set-1 {
   display: flex;
-  flex-direction: column;
+  gap: 2rem;
 }
 
-
-.services__set-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 
 .services__info {
@@ -38,7 +32,6 @@
 
 .services__info p {
   font-size: 1.3rem;
-   margin-bottom: 1rem;
 }
 
 

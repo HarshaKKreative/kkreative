@@ -1,16 +1,18 @@
 .application-development {
   width: var(--container-width-lg);
   margin: 0 auto;
-  margin-top: 7.5rem;
-  display: flex;
-  gap: 5rem;
-  justify-content: space-between;
+  margin-top: 9rem;
 }
 
 .application-development h1,
 .application-development-services h2,
 .application-development-services h4 {
-    color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.application-development h1,
+.application-development-services h2 {
+  margin-bottom: 1.2rem;
 }
 
 .application-development p {
